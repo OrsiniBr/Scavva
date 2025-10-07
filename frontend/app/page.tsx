@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ConnectedAddress } from "~~/components/ConnectedAddress";
+import HomePage from "~~/components/HomePage";
 
 const Home = () => {
   return (
     <div className="flex items-center flex-col grow pt-10">
+        <HomePage/>
       {/* <div className="px-5">
         <h1 className="text-center">
           <span className="block text-2xl mb-2">Welcome to</span>
